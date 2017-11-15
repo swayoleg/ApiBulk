@@ -1,0 +1,11 @@
+[
+    {
+        "messages": [
+            "Import successfully done"
+        ],
+        "created_items": 0,
+        "updated_items": 2,
+        "processed_entities": 4,
+        "processed_rows": 2
+    }
+]

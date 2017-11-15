@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="\SwayOleg\ApiBulk\Api\ProductInterface"
+                type="\SwayOleg\ApiBulk\Model\Product" />
+
+    <type name="\Magento\ImportExport\Model\Import\Adapter">
+        <arguments>
+            <argument name="adapters" xsi:type="array">
+                <item name="api" xsi:type="string">SwayOleg\ApiBulk\Model\Import\Source\Api</item>
+            </argument>
+        </arguments>
+    </type>
+
+</config>
