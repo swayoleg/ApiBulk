@@ -21,7 +21,7 @@ So in fact
 3. app/code/SwayOleg/ApiBulk/Model/Product.php - Endpoint logic here
 
 Installation
-1. Unpack archive to /app/code
+1. Copy SwayOleg folder to your /app/code
 2. enable module by magento module:enable SwayOleg_ApiBulk
 3. run upgrade with magento setup:upgrade
 4. flush cache with magento cache:flush
