@@ -34,13 +34,12 @@ Response example
         "messages": [
             "Import successfully done"
         ],
-        "created_items": 2,
-        "updated_items": 32,
-        "processed_entities": 32,
-        "processed_rows": 0
+        "created_items": 1,
+        "updated_items": 1,
+        "processed_entities": 4,
+        "processed_rows": 2
     }
 ]
-
 ```
 
 Request Example (Use raw body) 
