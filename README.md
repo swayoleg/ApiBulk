@@ -1,3 +1,5 @@
+DEPRECATED - it was tested in very old magento I guess 2.1 or something, please dont use this package for production, use just as example of workaround
+
 Why does magento API  disallow  bulk import of products? Because API should work with whole backend logic of interceptors, observers etc.
 But if we certainly know, that we don't need all that stuff like interceptors, and need to make API bulk import, just like native csv import, but via API -  what we can do?
 Anyway we need to create endpoint to get products data to import and we also need some model to process that data to database.
