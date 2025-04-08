@@ -2,6 +2,9 @@
 
 ## Only reference use purpose
 
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 DEPRECATED - it was tested in very old magento I guess 2.1 or something, please dont use this package for production, use just as example of workaround
 
 Why does magento API  disallow  bulk import of products? Because API should work with whole backend logic of interceptors, observers etc.
